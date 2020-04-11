@@ -1,0 +1,548 @@
+{
+  "common": {
+    "name": "landroid-s",
+    "version": "2.5.5",
+    "news": {
+      "2.5.5": {
+        "en": "Api changed!",
+        "de": "Api hat sich geändert!",
+        "ru": "Api изменился!",
+        "pt": "Api mudou!",
+        "nl": "Api veranderd!",
+        "fr": "Api a changé!",
+        "it": "Api è cambiato!",
+        "es": "Api cambió!",
+        "pl": "Api się zmienił!",
+        "zh-cn": "Api改变了！"
+      },
+      "2.5.4": {
+        "en": "better device support, added pause button ",
+        "de": "bessere Geräteunterstützung, zusätzliche Pause-Taste",
+        "ru": "улучшенная поддержка устройств, кнопка добавления паузы",
+        "pt": "melhor suporte ao dispositivo, botão de pausa adicionado",
+        "nl": "betere apparaatondersteuning, toegevoegde pauzeknop",
+        "fr": "meilleur support du périphérique, bouton de pause ajouté",
+        "it": "migliore supporto del dispositivo, pulsante di pausa aggiunto",
+        "es": "mejor soporte para el dispositivo, botón de pausa agregado",
+        "pl": "lepsza obsługa urządzeń, dodany przycisk pauzy"
+      },
+      "2.2.2": {
+        "en": "support of Landroid M FW> 5.0.0",
+        "de": "Unterstützung von Landroid M FW> 5.0.0",
+        "ru": "поддержка Landroid M FW> 5.0.0",
+        "pt": "suporte de Landroid M FW> 5.0.0",
+        "nl": "ondersteuning van Landroid M FW> 5.0.0",
+        "fr": "support de Landroid M FW> 5.0.0",
+        "it": "supporto di Landroid M FW> 5.0.0",
+        "es": "soporte de Landroid M FW> 5.0.0",
+        "pl": "wsparcie dla Landroid M FW> 5.0.0"
+      },
+      "2.1.2": {
+        "en": "add mower selection, clean up, remove CA",
+        "de": "Mäherauswahl hinzufügen",
+        "ru": "добавить подбор косилки",
+        "pt": "adicionar seleção de cortador",
+        "nl": "voeg maaier selectie toe",
+        "fr": "ajouter une sélection de tondeuse",
+        "it": "aggiungere la selezione della falciatrice",
+        "es": "agregar la selección del cortacésped",
+        "pl": "dodać wybór kosiarki"
+      },
+      "2.0.1": {
+        "en": "connection problem with new mower fixed ",
+        "de": "Verbindungsproblem mit neuem Mäher behoben",
+        "ru": "проблема подключения с новой косилкой",
+        "pt": "problema de conexão com novo cortador fixo",
+        "nl": "verbindingsprobleem met nieuwe maaier hersteld",
+        "fr": "problème de connexion avec la nouvelle tondeuse fixée",
+        "it": "problema di connessione con il nuovo tosaerba riparato",
+        "es": "problema de conexión con la nueva podadora fija",
+        "pl": "problem z połączeniem z nową kosiarką naprawiono"
+      },
+      "2.0.0": {
+        "en": "Admin3, no polling",
+        "de": "Admin3, keine Abfrage",
+        "ru": "Admin3, нет опроса",
+        "pt": "Admin3, sem polling",
+        "nl": "Admin3, geen polling",
+        "fr": "Admin3, pas d'interrogation",
+        "it": "Admin3, nessun sondaggio",
+        "es": "Admin3, sin votación",
+        "pl": "Admin3, bez odpytywania"
+      },
+      "1.1.7": {
+        "en": "No Mac needed",
+        "de": "Mac Adresse wird automatisch bezogen"
+      },
+      "1.1.5": {
+        "en": "no OpenSSL needed, change server automaticly",
+        "de": "Kein OpenSSL mehr, Serveradresse wird automatisch angepasst"
+      },
+      "1.0.4": {
+        "en": "Update dependencies",
+        "de": "Update npm Pakete"
+      },
+      "1.0.3": {
+        "en": "Bug fixes, small changes",
+        "de": "Fehler beseitigt und Kleinigkeiten geändert"
+      },
+      "0.3.1": {
+        "en": "add rawdata, chargecycle and actualArea",
+        "de": "Rohdaten hinzugefügt"
+      },
+      "0.3.0": {
+        "en": "add rawdata",
+        "de": "Rohdaten hinzugefügt"
+      },
+      "0.2.5": {
+        "en": "every comnfig parameter is configureable",
+        "de": "Alle unterstützten Parameter können geändert werden"
+      }
+    },
+    "title": "Worx Landroid S",
+    "titleLang": {
+      "en": "Control Landroid S over cloud",
+      "de": "Landroid S über die Cloud steuern",
+      "ru": "Управление Landroid S над облаком",
+      "pt": "Controle Landroid S sobre nuvem",
+      "nl": "Bestuur Landroid S via cloud",
+      "fr": "Contrôler Landroid S sur le cloud",
+      "it": "Controlla Landroid S su cloud",
+      "es": "Controle Landroid S sobre la nube",
+      "pl": "Kontroluj Landroid S przez chmurę"
+    },
+    "desc": {
+      "en": "The mower is connected via worx cloud to iobroker",
+      "de": "Der Mäher ist über die Worx Cloud mit iobroker verbunden",
+      "ru": "косилка подключается через облако worx к iobroker",
+      "pt": "o cortador está conectado via nuvem worx ao iobroker",
+      "nl": "de maaier is verbonden via worx cloud met iobroker",
+      "fr": "la tondeuse est connectée via worx cloud à iobroker",
+      "it": "il rasaerba è collegato tramite worx cloud a iobroker",
+      "es": "el cortacésped está conectado a través de la nube worx a iobroker",
+      "pl": "kosiarka jest połączona przez chmurę worx z iobroker"
+    },
+    "materialize": true,
+    "platform": "Javascript/Node.js",
+    "mode": "daemon",
+    "icon": "landroid-s.png",
+    "enabled": true,
+    "extIcon": "https://raw.githubusercontent.com/MeisterTR/iobroker.landroid-s/master/admin/landroid-s.png",
+    "keywords": [
+      "worx",
+      "landroid s",
+      "mower"
+    ],
+    "readme": "https://github.com/MeisterTR/iobroker.landroid-s/blob/master/README.md",
+    "loglevel": "info",
+    "type": "garden",
+    "license": "MIT",
+    "restartAdapters": [
+      "vis"
+    ],
+    "authors": [
+      {
+        "name": "MeisterTR",
+        "email": "meistertr.smarthome@gmail.com"
+      }
+    ]
+  },
+  "native": {
+    "email": "max.mustermann@gmx.de",
+    "pwd": "PASSWORT",
+    "dev_sel": 0,
+    "enableJson": false,
+    "houerKm": false
+  },
+  "objects": [],
+  "instanceObjects": [
+    {
+      "_id": "info",
+      "type": "channel",
+      "common": {
+        "name": "Information"
+      },
+      "native": {}
+    },
+    {
+      "_id": "info.connection",
+      "type": "state",
+      "common": {
+        "role": "indicator.connected",
+        "name": "If connected to CUL",
+        "type": "boolean",
+        "read": true
+      },
+      "native": {}
+    },
+    {
+      "_id": "info.firmware",
+      "type": "state",
+      "common": {
+        "name": "Firmware Version",
+        "type": "string",
+        "role": "text",
+        "read": true,
+        "desc": "Firmware Version"
+      },
+      "native": {}
+    },
+    {
+      "_id": "mower",
+      "type": "channel",
+      "common": {
+        "name": "mower"
+      },
+      "native": {}
+    },
+    {
+      "_id": "mower.batteryState",
+      "type": "state",
+      "common": {
+        "name": "mower battery state",
+        "type": "number",
+        "role": "value.battery",
+        "unit": "%",
+        "read": true,
+        "desc": "mower mower battery state in %"
+      },
+      "native": {}
+    },
+    {
+      "_id": "mower.waitRain",
+      "type": "state",
+      "common": {
+        "name": "Wait after rain",
+        "type": "number",
+        "role": "value",
+        "unit": "min",
+        "read": true,
+        "desc": "Time to wait after rain, in minutes"
+      },
+      "native": {}
+    },
+    {
+      "_id": "calendar",
+      "type": "channel",
+      "common": {
+        "name": "calendar"
+      },
+      "native": {}
+    },
+    {
+      "_id": "calendar.monday",
+      "type": "channel",
+      "common": {
+        "name": "Monday"
+      },
+      "native": {}
+    },
+    {
+      "_id": "calendar.monday.startTime",
+      "type": "state",
+      "common": {
+        "name": "Start time",
+        "role": "text",
+        "type": "string",
+        "read": true,
+        "desc": "Hour:Minutes on the day (monday) that the mower should start mowing"
+      },
+      "native": {}
+    },
+    {
+      "_id": "calendar.monday.workTime",
+      "type": "state",
+      "common": {
+        "name": "Work time",
+        "type": "number",
+        "role": "value",
+        "unit": "min",
+        "read": true,
+        "desc": "Decides for how long the mower will work each day"
+      },
+      "native": {}
+    },
+    {
+      "_id": "calendar.monday.borderCut",
+      "type": "state",
+      "common": {
+        "name": "Border cut",
+        "type": "boolean",
+        "role": "switch",
+        "read": true,
+        "desc": "The mower cut border today"
+      },
+      "native": {}
+    },
+    {
+      "_id": "calendar.tuesday",
+      "type": "channel",
+      "common": {
+        "name": "Tuesday"
+      },
+      "native": {}
+    },
+    {
+      "_id": "calendar.tuesday.startTime",
+      "type": "state",
+      "common": {
+        "name": "Start time",
+        "type": "string",
+        "role": "text",
+        "read": true,
+        "desc": "Hour:Minutes on the day (tuesday) that the mower should start mowing"
+      },
+      "native": {}
+    },
+    {
+      "_id": "calendar.tuesday.workTime",
+      "type": "state",
+      "common": {
+        "name": "Work time",
+        "type": "number",
+        "role": "value",
+        "unit": "min.",
+        "read": true,
+        "desc": "Decides for how long the mower will work each day"
+      },
+      "native": {}
+    },
+    {
+      "_id": "calendar.tuesday.borderCut",
+      "type": "state",
+      "common": {
+        "name": "Border cut",
+        "type": "boolean",
+        "role": "switch",
+        "read": true,
+        "desc": "The mower cut border today"
+      },
+      "native": {}
+    },
+    {
+      "_id": "calendar.wednesday",
+      "type": "channel",
+      "common": {
+        "name": "Wednesday"
+      },
+      "native": {}
+    },
+    {
+      "_id": "calendar.wednesday.startTime",
+      "type": "state",
+      "common": {
+        "name": "Start time",
+        "type": "string",
+        "role": "text",
+        "read": true,
+        "desc": "Hour:Minutes on the day (wednesday) that the mower should start mowing"
+      },
+      "native": {}
+    },
+    {
+      "_id": "calendar.wednesday.workTime",
+      "type": "state",
+      "common": {
+        "name": "Work time",
+        "type": "number",
+        "role": "value",
+        "unit": "min.",
+        "read": true,
+        "desc": "Decides for how long the mower will work each day"
+      },
+      "native": {}
+    },
+    {
+      "_id": "calendar.wednesday.borderCut",
+      "type": "state",
+      "common": {
+        "name": "Border cut",
+        "type": "boolean",
+        "role": "switch",
+        "read": true,
+        "desc": "The mower cut border today"
+      },
+      "native": {}
+    },
+    {
+      "_id": "calendar.thursday",
+      "type": "channel",
+      "common": {
+        "name": "Thursday"
+      },
+      "native": {}
+    },
+    {
+      "_id": "calendar.thursday.startTime",
+      "type": "state",
+      "common": {
+        "name": "Start time",
+        "type": "string",
+        "role": "text",
+        "read": true,
+        "desc": "Hour:Minutes on the day (thursday) that the mower should start mowing"
+      },
+      "native": {}
+    },
+    {
+      "_id": "calendar.thursday.workTime",
+      "type": "state",
+      "common": {
+        "name": "Work time",
+        "type": "number",
+        "role": "value",
+        "unit": "min.",
+        "read": true,
+        "desc": "Decides for how long the mower will work each day"
+      },
+      "native": {}
+    },
+    {
+      "_id": "calendar.thursday.borderCut",
+      "type": "state",
+      "common": {
+        "name": "Border cut",
+        "type": "boolean",
+        "role": "switch",
+        "read": true,
+        "desc": "The mower cut border today"
+      },
+      "native": {}
+    },
+    {
+      "_id": "calendar.friday",
+      "type": "channel",
+      "common": {
+        "name": "Friday"
+      },
+      "native": {}
+    },
+    {
+      "_id": "calendar.friday.startTime",
+      "type": "state",
+      "common": {
+        "name": "Start time",
+        "type": "string",
+        "role": "text",
+        "read": true,
+        "desc": "Hour:Minutes on the day (friday) that the mower should start mowing"
+      },
+      "native": {}
+    },
+    {
+      "_id": "calendar.friday.workTime",
+      "type": "state",
+      "common": {
+        "name": "Work time",
+        "type": "number",
+        "role": "value",
+        "unit": "min.",
+        "read": true,
+        "desc": "Decides for how long the mower will work each day"
+      },
+      "native": {}
+    },
+    {
+      "_id": "calendar.friday.borderCut",
+      "type": "state",
+      "common": {
+        "name": "Border cut",
+        "type": "boolean",
+        "role": "switch",
+        "read": true,
+        "desc": "The mower cut border today"
+      },
+      "native": {}
+    },
+    {
+      "_id": "calendar.saturday",
+      "type": "channel",
+      "common": {
+        "name": "Saturday"
+      },
+      "native": {}
+    },
+    {
+      "_id": "calendar.saturday.startTime",
+      "type": "state",
+      "common": {
+        "name": "Start time",
+        "type": "string",
+        "role": "text",
+        "read": true,
+        "desc": "Hour:Minutes on the day (saturday) that the mower should start mowing"
+      },
+      "native": {}
+    },
+    {
+      "_id": "calendar.saturday.workTime",
+      "type": "state",
+      "common": {
+        "name": "Work time",
+        "type": "number",
+        "role": "value",
+        "unit": "min.",
+        "read": true,
+        "desc": "Decides for how long the mower will work each day"
+      },
+      "native": {}
+    },
+    {
+      "_id": "calendar.saturday.borderCut",
+      "type": "state",
+      "common": {
+        "name": "Border cut",
+        "type": "boolean",
+        "role": "switch",
+        "read": true,
+        "desc": "The mower cut border today"
+      },
+      "native": {}
+    },
+    {
+      "_id": "calendar.sunday",
+      "type": "channel",
+      "common": {
+        "name": "Sunday"
+      },
+      "native": {}
+    },
+    {
+      "_id": "calendar.sunday.startTime",
+      "type": "state",
+      "common": {
+        "name": "Start time",
+        "type": "string",
+        "role": "text",
+        "read": true,
+        "desc": "Hour:Minutes on the day (sunday) that the mower should start mowing"
+      },
+      "native": {}
+    },
+    {
+      "_id": "calendar.sunday.workTime",
+      "type": "state",
+      "common": {
+        "name": "Work time",
+        "type": "number",
+        "role": "value",
+        "unit": "min.",
+        "read": true,
+        "desc": "Decides for how long the mower will work each day"
+      },
+      "native": {}
+    },
+    {
+      "_id": "calendar.sunday.borderCut",
+      "type": "state",
+      "common": {
+        "name": "Border cut",
+        "type": "boolean",
+        "role": "switch",
+        "read": true,
+        "desc": "The mower cut border today"
+      },
+      "native": {}
+    }
+  ]
+}

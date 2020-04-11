@@ -1,0 +1,44 @@
+{
+  "name": "iobroker.landroid-s",
+  "version": "2.5.5",
+  "description": "Control your Landroid S (2017)",
+  "keywords": [
+    "ioBroker",
+    "worx",
+    "Landroid S",
+    "Smart Home",
+    "home automation"
+  ],
+  "homepage": "https://github.com/MeisterTR/iobroker.landroid-s",
+  "bugs": {
+    "url": "https://github.com/MeisterTR/iobroker.landroid-s/issues"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "MeisterTR",
+    "email": "meistertr.smarthome@gmail.com"
+  },
+  "contributors": [
+    {
+      "name": "MeisterTR",
+      "email": "meistertr.smarthome@gmail.com"
+    }
+  ],
+  "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MeisterTR/iobroker.landroid-s.git"
+  },
+  "scripts": {
+    "test": "node node_modules/mocha/bin/mocha --exit"
+  },
+  "dependencies": {
+    "mqtt": "^2.13.0",
+    "uuid": "^3.1.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "mocha": "^4.1.0",
+    "chai": "^4.1.2"
+  }
+}
